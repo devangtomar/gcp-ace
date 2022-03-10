@@ -110,13 +110,11 @@ Networks cannot be shared b/w projects.
    1. HTTPS load balancing : Used across region
    2. Network load balancing : Used in same region
 
-4. Cloud DNS :
-
-Google Cloud DNS
+4. Cloud DNS : Google Cloud DNS
 
 5. Advanced connectivity :
    1. Cloud VPN : through IPsec connection
-   2. Direct interconnect
+   2. Direct interconnect : More expensive
    3. Direct peering
    4. Carrier peering
 
@@ -146,7 +144,7 @@ Controlled by IAM : Identity access management
 
     Types : Self-service (online) & Invoiced (offline)
 
-    Sub-accounts : For customer separation and management.
+      Sub-accounts : For customer separation and management.
 
 2. Payments profile : Store all payment methods.
 
@@ -162,19 +160,19 @@ Controlled by IAM : Identity access management
 
     Commitment Types :
 
-    1. Spend based
+       1. Spend based
 
-    - Minimum amount for a service (hours)
-    - 25% for 1 year discounts - 52% discount on a 3 year
-    - Available for : Cloud SQL + Google cloud Vmware engine
-    - Applies to CPU and memory usage
+          - Minimum amount for a service (hours)
+          - 25% for 1 year discounts - 52% discount on a 3 year
+          - Available for : Cloud SQL + Google cloud Vmware engine
+          - Applies to CPU and memory usage
 
-    2. Resource based
+       2. Resource based
 
-    - Minimum amount for compute engine resources
-    - Available for vCPU, memory, GPU and local SSD
-    - 57% discount for most resources and 70% for memory optimized machine types
-    - For use across projects
+         - Minimum amount for compute engine resources
+         - Available for vCPU, memory, GPU and local SSD
+         - 57% discount for most resources and 70% for memory optimized machine types
+         - For use across projects
 
 2. Sustained-use discounts
 
@@ -188,7 +186,7 @@ Controlled by IAM : Identity access management
 
 3. GCP pricing calculator : Quick estimate of what your usage will cost on Google cloud
 
-4. Cloud Billing budgets : Traack your actual google cloud spends
+4. Cloud Billing budgets : Track your actual google cloud spends
 
     Budget alert --> monitoring --> email --> budget alert recepents.
 
