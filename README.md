@@ -70,17 +70,17 @@ Knows asa serverless for containers.
       Google for content delivery and data lake
 
       - Storage classses :
-        1. Standard : max availability. No limitation
-        2. Nearline : Low-cost archival storage. Accessed < 1/month
-        3. Coldline : Even Lower-cost archival storage. Accessed < 1/Quater
-        4. Archival : Lowest cost archival storage. Accessed < 1/year
+          1. Standard : max availability. No limitation
+          2. Nearline : Low-cost archival storage. Accessed < 1/month
+          3. Coldline : Even Lower-cost archival storage. Accessed < 1/Quater
+          4. Archival : Lowest cost archival storage. Accessed < 1/year
 
    2. Filestore : NFS file server (Store data from running application)
 
    3. Persistent Disks : Durable block storage for instances. Used by VM.
       Types :
-      1. Standard
-      2. Solid state (SSD and low latency)
+         1. Standard
+         2. Solid state (SSD and low latency)
 
 2. Databases :
 
@@ -226,10 +226,10 @@ IAM : Policy + Bindings
 
 Let's you manage access control by defining who, has what access, for which resource.
 
-- Principle of least privilege - Apply only the minimal access level required for what's needed.
-- Set policies at organization or project level rather than at the resource level.
-- Grant roles for users or group at the folder level rather than at the project level.
-- Grant roles to Google groups rather than individual users.
+   - Principle of least privilege - Apply only the minimal access level required for what's needed.
+   - Set policies at organization or project level rather than at the resource level.
+   - Grant roles for users or group at the folder level rather than at the project level.
+   - Grant roles to Google groups rather than individual users.
 
 Types of roles :
 
@@ -260,7 +260,7 @@ IDaaS : Identity as a Service
 
 GCDS : Google cloud directory sync : Acitve directory for GCP
 
-**Metworking in GCP**
+**Networking in GCP**
 
 1. **VPC** : Virtual private cloud
 
@@ -514,7 +514,7 @@ Types :
 
 3. Object storage :
 
-   1. Cloud storagee
+   1. Cloud storage
 
 4. Block storage :
 
@@ -522,153 +522,154 @@ Types :
 
 **Cloud VPN :**
 
-Connects your peer network to your VPC network through an IPsec VPN connection
+   Connects your peer network to your VPC network through an IPsec VPN connection
 
-IPsec tunnel over the public internet
+   IPsec tunnel over the public internet
 
-Cloud VPN is a regional service
-Site to site VPN only (no site to client)
-Allows private google access for on-premises hosts
-Support up to 3 Gbps per tunnel
+   Cloud VPN is a regional service
+   Site to site VPN only (no site to client)
+   Allows private google access for on-premises hosts
+   Support up to 3 Gbps per tunnel
 
-Types of cloud VPN :
+   Types of cloud VPN :
 
-1. Classic VPN : 99.9% SLA (3 9's SLA) , Static and dynamic routing, 1 ext IP for 1 interface, Deprecating functionality in 2021
+   1. Classic VPN : 99.9% SLA (3 9's SLA) , Static and dynamic routing, 1 ext IP for 1 interface, Deprecating functionality in 2021
 
-2. HA VPN : 99.99% SLA (4 9's SLA), Dynamic ruting, 2 ext IPs for 2 interfaces, new default VPN
+   2. HA VPN : 99.99% SLA (4 9's SLA), Dynamic ruting, 2 ext IPs for 2 interfaces, new default VPN
 
 **Cloud interconnect :**
 
-Low latency, highly available connection b/w your on-premises and GCP VPC n/w
+   Low latency, highly available connection b/w your on-premises and GCP VPC n/w
 
-Directly accessiible internal IP address : private google access
+   Directly accessiible internal IP address : private google access
 
-Does not traverse the public internet
+   Does not traverse the public internet
 
-Not encrypted
+   Not encrypted
 
-Expensive
+   Expensive
 
-Dedicated connection
+   Dedicated connection
 
-Types :
+   Types :
 
-1. Direct intnerconnect
-2. Partner internconnect
+   1. Direct intnerconnect
+   2. Partner internconnect
 
 **App engine overview :**
 
-1. Fully managed, serverless platform to develop and host web apps
-2. PaaS service
-3. Autoscaling based on loads
+   1. Fully managed, serverless platform to develop and host web apps
+   2. PaaS service
+   3. Autoscaling based on loads
 
 **Cloud functions :**
 
-Serverless. FaaS. You won't see the apps unlikek app engine
+   Serverless. FaaS. You won't see the apps unlikek app engine
 
-Event driven
+   Event driven
 
 **Cloud storage :**
 
-1. Object storage.
-2. For pictures and videos and not operating systems
+   1. Object storage.
+   2. For pictures and videos and not operating systems
 
-Based on location :
+   Based on location :
 
-   1. Region
-   2. Dual-region
-   3. Multi-region
+      1. Region
+      2. Dual-region
+      3. Multi-region
 
-Types :
+   Types :
 
-   Hot data :
+      Hot data :
 
-      1. Standard (max availability)
-      2. Nearline (Low cost for infrequently accessed data. 30 day min storage duration)
+         1. Standard (max availability)
+         2. Nearline (Low cost for infrequently accessed data. 30 day min storage duration)
 
-   Cold data :
+      Cold data :
 
-      3. Coldline (90 days min storage duration)
-      4. Archive (365 day min storage duration)
+         1. Coldline (90 days min storage duration)
+         2. Archive (365 day min storage duration)
 
 **Cloud SQL :**
 
-Fully managed, relational database service (RDBMS)
+   Fully managed, relational database service (RDBMS)
 
-DBaaS (Database as a service)
+   DBaaS (Database as a service)
 
-Low latency, transactional, reational db workloads
+   Low latency, transactional, reational db workloads
 
-High availability
+   High availability
 
 **Cloud Spannar :**
 
-Different from Cloud SQL.
+   Different from Cloud SQL.
 
-It's horizontally scalable and strongly consistent
+   It's horizontally scalable and strongly consistent
 
-Supportt schemas, ACID transactions and SQL queries
+   Supportt schemas, ACID transactions and SQL queries
 
 **NoSQL databases :**
 
-Types :
+   Types :
 
-1. Cloud BigTable (TB to PetaByte scale workload) : Hadoop etc.
-2. Cloud Datastore : Document database (Being retired in favor of cloud firestore in 2021)
-3. Firestore for firebase : Serverless amd store data in documents.
-4. MemoryStore : for Redis and memcached in-memory data store for cache.
+   1. Cloud BigTable (TB to PetaByte scale workload) : Hadoop etc.
+   2. Cloud Datastore : Document database (Being retired in favor of cloud firestore in 2021)
+   3. Firestore for firebase : Serverless amd store data in documents.
+   4. MemoryStore : for Redis and memcached in-memory data store for cache.
 
 **Big Data overview :**
 
-Services :
+   Services :
 
-1. BigQuery : Fully managed, petabyte scale, low cost analytics data warehouse
-2. Pub Sub : Fully managed real time messaging service. Send and receive messages b/w independent application
-3. Composer : (Built on APache airflow) Fully managed workflow orchestration service... used for automating workflows..
-4. Dataflow : (Used for ETL) Fully managed processing service for executing Apache beam pipelines for batch and realtime data streaming.
-5. DataProc : Spark and hadoop service. Can be used to replace on-prem hadoop infrastructure.
+      1. BigQuery : Fully managed, petabyte scale, low cost analytics data warehouse
+      2. Pub Sub : Fully managed real time messaging service. Send and receive messages b/w independent application
+      3. Composer : (Built on APache airflow) Fully managed workflow orchestration service... used for automating workflows..
+      4. Dataflow : (Used for ETL) Fully managed processing service for executing Apache beam pipelines for batch and realtime data streaming.
+      5. DataProc : Spark and hadoop service. Can be used to replace on-prem hadoop infrastructure.
 
 **Dataproc vs dataflow**
 
-Dataproc : managed
 Dataflow : serverless
+Dataproc : managed
+
 
 **Rest of the services :**
 
-- BigQuery - For analysis of large data.
+   - BigQuery - For analysis of large data.
 
-- Pub/Sub - Queue for notification.
+   - Pub/Sub - Queue for notification.
 
-- Composer - Built on Apache Airflow, workflow orchestration service
+   - Composer - Built on Apache Airflow, workflow orchestration service
 
-- Dataflow - Apache beam pipelines for batch and realtime datastream,for ETL. Serverless. Cloud Dataflow is a stream and batch processing service
+   - Dataflow - Apache beam pipelines for batch and realtime datastream,for ETL. Serverless. Cloud Dataflow is a stream and batch processing service
 
-- Dataproc - Run hadoop spark on google cloud. Fully managed instance.
+   - Dataproc - Run hadoop spark on google cloud. Fully managed instance.
 
-- Datalab - Tool for machine learning and visualization.
+   - Datalab - Tool for machine learning and visualization.
 
-- Cloud Data Fusion - Cloud Data Fusion is a managed service that is designed for building data transformation pipelines.
+   - Cloud Data Fusion - Cloud Data Fusion is a managed service that is designed for building data transformation pipelines.
 
-- Dataprep - Serverless. Cloud Dataprep is used to prepare data for analytics and machine learning.
+   - Dataprep - Serverless. Cloud Dataprep is used to prepare data for analytics and machine learning.
 
 **Machine learning :**
 
-Services :
+   Services :
 
-- Sight
-  - Vision : For images (clasify images and hand written text data).
-  - Video Intelligence : For videos (recognize a vast number of objecta and streaming videos).
+   - Sight
+     - Vision : For images (clasify images and hand written text data).
+     - Video Intelligence : For videos (recognize a vast number of objecta and streaming videos).
 
-- Language
-  - Natural Language : (Derive insight using unstructred text)
-  - Translation : (Enables you to translate between languages).
+   - Language
+     - Natural Language : (Derive insight using unstructred text)
+     - Translation : (Enables you to translate between languages).
 
-- Conversation -
-  - Dialog Flow : chat bots
-  - Speech to text
-  - text to speech.
+   - Conversation -
+     - Dialog Flow : chat bots
+     - Speech to text
+     - text to speech.
 
-- Auto ML - Fully managed service to build ML product with less knowledge.
+   - Auto ML - Fully managed service to build ML product with less knowledge.
 
 **Operation Suite :** (Previously knows as Stackdriver)
 
