@@ -2,11 +2,11 @@
 
 5 characteristics of cloud :
 
-1. On-demand self service : provision resources automatically without human intervention
-2. Broad  Network access : available over internet
-3. Resource pooling : Sharing resources etc.
-4. Rapid Elasticity : Rapidily provision and de-provision any of the cloud resource
-5. Measured service : Resouce usage can be monitored/metered
+   1. On-demand self service : provision resources automatically without human intervention
+   2. Broad  Network access : available over internet
+   3. Resource pooling : Sharing resources etc.
+   4. Rapid Elasticity : Rapidily provision and de-provision any of the cloud resource
+   5. Measured service : Resouce usage can be monitored/metered
 
 **Cloud Deployment models :**
 
@@ -42,11 +42,11 @@ XaaS : Anything as a service
 
 **Google Cloud Global infrastructure :**
 
-GCP has 24 regions, 73 zones and 144 network edge locations
+- GCP has 24 regions, 73 zones and 144 network edge locations
 
-POP (Point of presence) : Edge network : Most closest to the customer/user
+- POP (Point of presence) : Edge network : Most closest to the customer/user
 
-Note : Zones (smallest identity) --> region (n.o of zones together) --> multi-regions (Geo-redundant data, 2 or more regions)
+- Note : Zones (smallest identity) --> region (n.o of zones together) --> multi-regions (Geo-redundant data, 2 or more regions)
 
 **Compute service options :**
 
@@ -67,13 +67,13 @@ Knows asa serverless for containers.
 
    1. Cloud storage : Object storage. Durability : 11 9's durability : 99.9999999999999%
 
-   Google for content delivery and data lake
+      Google for content delivery and data lake
 
-   - Storage classses :
-     1. Standard : max availability. No limitation
-     2. Nearline : Low-cost archival storage. Accessed < 1/month
-     3. Coldline : Even Lower-cost archival storage. Accessed < 1/Quater
-     4. Archival : Lowest cost archival storage. Accessed < 1/year
+      - Storage classses :
+        1. Standard : max availability. No limitation
+        2. Nearline : Low-cost archival storage. Accessed < 1/month
+        3. Coldline : Even Lower-cost archival storage. Accessed < 1/Quater
+        4. Archival : Lowest cost archival storage. Accessed < 1/year
 
    2. Filestore : NFS file server (Store data from running application)
 
