@@ -27,18 +27,18 @@ XaaS : Anything as a service
 
 4. PaaS : Only your data and application. Rest all is taken care by vendor
 
-- App Engine - Fully managed, serverless platform. Languages - Go, Java, .NET, Node.js, PHP, Python Ruby.
+   - App Engine - Fully managed, serverless platform. Languages - Go, Java, .NET, Node.js, PHP, Python Ruby.
 
 5. SaaS : Vendor takes care of everything.
 
 5. CaaS
 
-- Google Kubernetes Engine (GKE) - For deploying and managing containers.
+   - Google Kubernetes Engine (GKE) - For deploying and managing containers.
 
 6. FaaS :
 
-- Cloud Functions - Serverless execution environment.No need to provision any infra. Languages - JavaScript, Java, node.js, .NET, Python3, Go.
-- Cloud Run - Full Managed for containerized Applications.
+   - Cloud Functions - Serverless execution environment.No need to provision any infra. Languages - JavaScript, Java, node.js, .NET, Python3, Go.
+   - Cloud Run - Full Managed for containerized Applications.
 
 **Google Cloud Global infrastructure :**
 
