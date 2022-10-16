@@ -19,9 +19,27 @@
 
 XaaS : Anything as a service
 
+1. Traditional on-premises : You takecare of everything
 
+2. DC hosted : DC is there.. rest you takecare
 
-GitHub repo for follow along : https://github.com/antonitz/google-cloud-associate-cloud-engineer
-🔗 Get your Free Practice and Downloadable Cheatsheets: https://www.exampro.co/gcp-ace
-More notes : https://github.com/agakhil13/gcp_quick_notes
+3. IaaS : Compute Engine (VM instances). You decide what Operating System and software need to install.
 
+4. PaaS : Only your data and application. Rest all is taken care by vendor
+
+- App Engine - Fully managed, serverless platform. Languages - Go, Java, .NET, Node.js, PHP, Python Ruby.
+
+5. SaaS : Vendor takes care of everything.
+
+5. CaaS
+
+- Google Kubernetes Engine (GKE). For deploying and managing containers.
+
+6. FaaS :
+
+- Cloud Functions - Serverless execution environment.No need to provision any infra. Languages - JavaScript, Java, node.js, .NET, Python3, Go.
+- Cloud Run - Full Managed for containerized Applications.
+
+GitHub repo for follow along : <https://github.com/antonitz/google-cloud-associate-cloud-engineer>
+🔗 Get your Free Practice and Downloadable Cheatsheets: <https://www.exampro.co/gcp-ace>
+More notes : <https://github.com/agakhil13/gcp_quick_notes>
