@@ -75,9 +75,9 @@ Knows asa serverless for containers.
      3. Coldline : Even Lower-cost archival storage. Accessed < 1/Quater
      4. Archival : Lowest cost archival storage. Accessed < 1/year
 
-   1. Filestore : NFS file server (Store data from running application)
+   2. Filestore : NFS file server (Store data from running application)
 
-   2. Persistent Disks : Durable block storage for instances. Used by VM.
+   3. Persistent Disks : Durable block storage for instances. Used by VM.
       Types :
       1. Standard
       2. Solid state (SSD and low latency)
@@ -389,6 +389,33 @@ Reservations :
    - No charge if < 10 mins
    - No live migration and auto-restart
    - Good for fault tolerant apps
+
+**Storage fundamentals :**
+
+1. Block storage
+   1. Persistent disks
+      1. Network storage
+      2. independent
+      3. resize while running
+      4. encrypted
+      5. upto 64TB in size
+      6. **Use regional PD for zonal outage for backup and data redundancy**
+
+   2. Local SSDs
+      1. Physically attached
+      2. Higher IOPS
+      3. Data persists until instance is stopped or deleted.
+
+**Persistent Disk Snapshots :**
+
+- Backup and restore of persistent disk
+- Global resource
+- Incremental and automatically compressed
+- Stored in regional or multi-regional location
+
+**Deployment Manager :**
+
+
 
 🚀 GitHub repo for follow along : <https://github.com/antonitz/google-cloud-associate-cloud-engineer>
 
