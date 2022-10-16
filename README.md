@@ -126,7 +126,31 @@ Access control policies are inherited by child
 
 Domain level <-- Organization <-- Folders <-- Projects <-- Resource
 
+1. Service level resources
+
+- Compute Instance VM's
+- Cloud storage buckets
+- Cloud SQL databases
+
+2. Account level resources
+
+- Organization
+- Folders
+- Projects
+
 Controlled by IAM : Identity access management
+
+**Cloud Billing :**
+
+1. Billing account : who pays for GCP resources
+
+    Types : Self-service (online) & Invoiced (offline)
+
+    Sub-accounts : For customer separation and management.
+
+2. Payments profile : Store all payment methods.
+
+    Types : Individual and Business (Cannot be changed afterwards)
 
 
 
