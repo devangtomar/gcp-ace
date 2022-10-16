@@ -246,6 +246,22 @@ Conditions :
 
 **Service accounts :**
 
+Bot account for automating tasks.
+
+Types :
+
+1. User managed account
+2. Default account
+3. Google managed account
+
+Uses service account keys (For sign-in)
+
+**Cloud Identity :**
+
+IDaaS : Identity as a Service
+
+
+
 🚀 GitHub repo for follow along : <https://github.com/antonitz/google-cloud-associate-cloud-engineer>
 
 🔗 Get your Free Practice and Downloadable Cheatsheets: <https://www.exampro.co/gcp-ace>
