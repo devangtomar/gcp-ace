@@ -128,15 +128,15 @@ Domain level <-- Organization <-- Folders <-- Projects <-- Resource
 
 1. Service level resources
 
-- Compute Instance VM's
-- Cloud storage buckets
-- Cloud SQL databases
+    - Compute Instance VM's
+    - Cloud storage buckets
+    - Cloud SQL databases
 
 2. Account level resources
 
-- Organization
-- Folders
-- Projects
+   - Organization
+   - Folders
+   - Projects
 
 Controlled by IAM : Identity access management
 
@@ -178,22 +178,43 @@ Controlled by IAM : Identity access management
 
 2. Sustained-use discounts
 
-- Automatic discounts for running computer engine resources a significant portion of the billing month
+   - Automatic discounts for running computer engine resources a significant portion of the billing month
 
-- Applies to vCPUs and memory for most compute engine instance types
+   - Applies to vCPUs and memory for most compute engine instance types
 
-- Includes VM's created by GKE
+   - Includes VM's created by GKE
 
-- Upto 30% discounts
+   - Upto 30% discounts
 
 3. GCP pricing calculator : Quick estimate of what your usage will cost on Google cloud
 
 4. Cloud Billing budgets : Traack your actual google cloud spends
 
-Budget alert --> monitoring --> email --> budget alert recepents.
+    Budget alert --> monitoring --> email --> budget alert recepents.
 
 5. Cloud Pub/Sub : Programatically notification or to automate cost management tasks. Real time notifications etc.
 
-GitHub repo for follow along : <https://github.com/antonitz/google-cloud-associate-cloud-engineer>
+**Export Billing data :**
+
+Enables granular billing data to be exported automatically to BigQuery for detailed analysis
+
+**Cloud SDK and CLI :**
+
+Cloud SDK :
+
+    Set of command lines tools to manage resource via terminal
+
+    Ex : gcloud, gsutil, bq, kubectl
+
+    You can use a user account or service account for using Cloud SDK and automating stuff.
+
+**Limits and Quotas :**
+
+Hard limit on how much of a particular google cloud resource your project can use.
+
+1. Rate quota : resets after specified time. Ex : API usage
+2. Allocation quota : Must be explicity released. Ex : Deleting GKE cluster.
+
+🚀 GitHub repo for follow along : <https://github.com/antonitz/google-cloud-associate-cloud-engineer>
+
 🔗 Get your Free Practice and Downloadable Cheatsheets: <https://www.exampro.co/gcp-ace>
-More notes : <https://github.com/agakhil13/gcp_quick_notes>
