@@ -120,6 +120,16 @@ Google Cloud DNS
    3. Direct peering
    4. Carrier peering
 
+**Resource hierarchy :**
+
+Access control policies are inherited by child
+
+Domain level <-- Organization <-- Folders <-- Projects <-- Resource
+
+Controlled by IAM : Identity access management
+
+
+
 GitHub repo for follow along : <https://github.com/antonitz/google-cloud-associate-cloud-engineer>
 🔗 Get your Free Practice and Downloadable Cheatsheets: <https://www.exampro.co/gcp-ace>
 More notes : <https://github.com/agakhil13/gcp_quick_notes>
