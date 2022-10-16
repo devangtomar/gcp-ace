@@ -415,6 +415,10 @@ Reservations :
 
 **Deployment Manager :**
 
+YAML, JSON and Jinja to deploy and destory resources
+
+Deploy --> update --> delete
+
 
 
 🚀 GitHub repo for follow along : <https://github.com/antonitz/google-cloud-associate-cloud-engineer>
