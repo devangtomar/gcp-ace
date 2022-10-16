@@ -346,8 +346,49 @@ Machine configuration :
 
 **Compute engine machine types :**
 
+Types :
 
+1. General purpose
+2. Compute optimized
+3. Memory optimized
 
+**Managing instances :**
+
+Shielded VMs : Secure boot
+
+**Compute engine billing :**
+
+vCPUs and momory are billed separately
+
+They are charged by the seconds with a minimum of 1 minute
+
+Reservations :
+
+- Ensuring resources are available for when you need it.
+- Include sustained use and committed use discounts
+- Apply only to compute engine, dataproc and GKE
+
+**Discount types :**
+
+1. Sustained use discounts
+
+   - Auto discounts applied to vcpu and GPU and memory
+
+2. Committed use discounts
+
+    - Purchased 1 year or 3 year contracts in return for deeply discounted prices
+    - Predicatable/steady state resources
+    - 57% for most resources
+    70% for memory optimized machine types
+
+3. Preemptible VMs
+
+   - 80% cheaper
+   - Fixed pricing
+   - Stops after Within 24 hours
+   - No charge if < 10 mins
+   - No live migration and auto-restart
+   - Good for fault tolerant apps
 
 🚀 GitHub repo for follow along : <https://github.com/antonitz/google-cloud-associate-cloud-engineer>
 
