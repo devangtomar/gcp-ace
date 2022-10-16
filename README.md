@@ -1,2 +1,2 @@
-For practice exam : https://github.com/devangtomar/gcp-ace.git
+For practice exam : https://app.exampro.co/student/journey/gcp-eng
 
