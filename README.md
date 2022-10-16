@@ -212,8 +212,39 @@ Cloud SDK :
 
 Hard limit on how much of a particular google cloud resource your project can use.
 
-1. Rate quota : resets after specified time. Ex : API usage
-2. Allocation quota : Must be explicity released. Ex : Deleting GKE cluster.
+Types :
+
+   1. Rate quota : resets after specified time. Ex : API usage
+   2. Allocation quota : Must be explicity released. Ex : Deleting GKE cluster.
+
+How to view :
+
+    1. Quotas page
+    2. API dashboard
+
+**Cloud IAM**
+
+IAM : Policy + Bindings
+
+Let's you manage access control by defining who, has what access, for which resource.
+
+- Principle of least privilege - Apply only the minimal access level required for what's needed.
+- Set policies at organization or project level rather than at the resource level.
+- Grant roles for users or group at the folder level rather than at the project level.
+- Grant roles to Google groups rather than individual users.
+
+Types of roles :
+
+   1. Primitive : Roles historically available in the GCP. Ex : Owner, editor and viewer
+   2. Predefined : Finer grained access control than the primitive roles
+   3. Custom : tailor permission to the needs of your org.
+
+Conditions :
+
+1. Time based conditions
+2. Resource based conditions
+
+**Service accounts :**
 
 🚀 GitHub repo for follow along : <https://github.com/antonitz/google-cloud-associate-cloud-engineer>
 
