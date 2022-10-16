@@ -260,7 +260,62 @@ Uses service account keys (For sign-in)
 
 IDaaS : Identity as a Service
 
+GCDS : Google cloud directory sync : Acitve directory for GCP
 
+**Metworking in GCP**
+
+1. **VPC** : Virtual private cloud
+
+   - Virtualized network within GCP
+   - A VPC is a global resource
+   - Encapsulated within Project
+   - Resource within VPC can commmunicate with one another using internal IPv4 addresses
+   - Support only for IPv4 addresses
+   - Each VPC contains a default network
+   - Types :
+     - Auto Mode (Automatic subnet)
+     - Custom Mode (Custom subnet.. gives more control)
+
+Connection of 1 VPC to another VPC : **VPC peering**
+
+**VPC Firewall rules :**
+
+Allows you to allow or block incoming and outgoing connections
+
+**VPC Peering :**
+
+- Private connectivity across 2 VPC networks
+- Peer across the same or different projects and org
+- Reduce network latency
+- Increase network security
+- Reduce network costs
+
+**Shared VPC :**
+
+Types :
+
+1. Shared VPC
+   - Allow org to connect different project with a single VPC network
+   - There are a host and service project.. cannot be both
+   - Standalone project are the one that doesn't connect with anything else.
+2. Multiple hosts project (2 separate hosts attached)
+3. Hybrid environment (On-prem with Cloud VPN)
+4. Two tier web service
+
+**VPC Flow logs :**
+
+Real-time visibility into network throughput and performance. Useful for real-time security analysis.
+
+**Cloud DNS :**
+
+Host authoritative name server and allow authoritative DNS lookups (DNS as a service)
+
+100% SLA
+
+Host zones through managed name servers
+
+   1. Public zones : visible to the internet
+   2. Private zones : visible only within your network
 
 🚀 GitHub repo for follow along : <https://github.com/antonitz/google-cloud-associate-cloud-engineer>
 
