@@ -317,6 +317,38 @@ Host zones through managed name servers
    1. Public zones : visible to the internet
    2. Private zones : visible only within your network
 
+**Compute engine :**
+
+1. Virtual machine = Instance (IaaS)
+2. Multiple instance sizes and types
+3. Per second billing
+4. Launched in a VPC network
+5. Host is available in a zone
+6. Multi-tenant host (cheap) or sole tenant node (expensive)
+
+Machine configuration :
+
+1. Cores (vCPU) memory
+   1. predefined
+   2. Custom
+
+2. OS
+   1. Public image : linux or windows
+   2. custom image : private images
+   3. marketplace : os + software
+
+3. Storage
+   1. perfomance Vs Cost
+      1. Standard : HDD
+      2. Balanced : alternative to SSD
+      3. SSD
+      4. Local SSD : Physically attached (swap disk)
+
+**Compute engine machine types :**
+
+
+
+
 🚀 GitHub repo for follow along : <https://github.com/antonitz/google-cloud-associate-cloud-engineer>
 
 🔗 Get your Free Practice and Downloadable Cheatsheets: <https://www.exampro.co/gcp-ace>
