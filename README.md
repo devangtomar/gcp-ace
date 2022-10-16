@@ -61,9 +61,39 @@ Note : Zones (smallest identity) --> region (n.o of zones together) --> multi-re
 5. Cloud Run : Fully managed compute platform for deploying and scaling containerized applications quickly and securely.
 Knows asa serverless for containers.
 
+**Storage and Databases :**
 
+1. Storage :
 
+   1. Cloud storage : Object storage. Durability : 11 9's durability : 99.9999999999999%
 
+   Google for content delivery and data lake
+
+   - Storage classses :
+     1. Standard : max availability. No limitation
+     2. Nearline : Low-cost archival storage. Accessed < 1/month
+     3. Coldline : Even Lower-cost archival storage. Accessed < 1/Quater
+     4. Archival : Lowest cost archival storage. Accessed < 1/year
+
+   1. Filestore : NFS file server (Store data from running application)
+
+   2. Persistent Disks : Durable block storage for instances. Used by VM.
+      Types :
+      1. Standard
+      2. Solid state (SSD and low latency)
+
+2. Databases :
+
+   1. SQL:
+      1. Cloud SQL: Fully managed database service. Ex : PSQL, MySQL. Have high availability across zones.
+
+      2. Cloud Spanner : Scalable relational database service. High availability across regions and globally
+
+   2. NoSQL:
+      1. Big Table : High throughput
+      2. DataStore : For mobile, web and IOT apps and ACID transactions
+      3. FireStore : Optimized for offline use
+      4. MemoryStore : Redis and memcached.
 
 GitHub repo for follow along : <https://github.com/antonitz/google-cloud-associate-cloud-engineer>
 🔗 Get your Free Practice and Downloadable Cheatsheets: <https://www.exampro.co/gcp-ace>
