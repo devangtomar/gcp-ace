@@ -50,6 +50,18 @@ Note : Zones (smallest identity) --> region (n.o of zones together) --> multi-re
 
 **Compute service options :**
 
+1. Compute engine : Virtual machines called instances. You can use pre-configured images using Google cloud marketplace.
+
+2. GKE (Called as CaaS) : Google kubernetes engine : Container orchestration for automating deploying, scaling and managing containers. This uses computer engine instances as nodes in a cluster.
+
+3. App Engine : Fully managed an serverless platform. Google scales and provision servers.
+
+4. Cloud Functions : Serverless execution environment. Single purpose functions.
+
+5. Cloud Run : Fully managed compute platform for deploying and scaling containerized applications quickly and securely.
+Knows asa serverless for containers.
+
+
 
 
 
