@@ -33,12 +33,25 @@ XaaS : Anything as a service
 
 5. CaaS
 
-- Google Kubernetes Engine (GKE). For deploying and managing containers.
+- Google Kubernetes Engine (GKE) - For deploying and managing containers.
 
 6. FaaS :
 
 - Cloud Functions - Serverless execution environment.No need to provision any infra. Languages - JavaScript, Java, node.js, .NET, Python3, Go.
 - Cloud Run - Full Managed for containerized Applications.
+
+**Google Cloud Global infrastructure :**
+
+GCP has 24 regions, 73 zones and 144 network edge locations
+
+POP (Point of presence) : Edge network : Most closest to the customer/user
+
+Note : Zones (smallest identity) --> region (n.o of zones together) --> multi-regions (Geo-redundant data, 2 or more regions)
+
+**Compute service options :**
+
+
+
 
 GitHub repo for follow along : <https://github.com/antonitz/google-cloud-associate-cloud-engineer>
 🔗 Get your Free Practice and Downloadable Cheatsheets: <https://www.exampro.co/gcp-ace>
