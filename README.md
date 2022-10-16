@@ -95,6 +95,31 @@ Knows asa serverless for containers.
       3. FireStore : Optimized for offline use
       4. MemoryStore : Redis and memcached.
 
+**Networking services :**
+
+1. VPC : Virtual private cloud
+Virtualized network within Google Cloud.
+Networks cannot be shared b/w projects.
+
+2. Firewall and routes
+   1. Firewall Rules : Govern traffic
+
+   2. Routes : How traffic will be re-directed
+
+3. Load balancing :
+   1. HTTPS load balancing : Used across region
+   2. Network load balancing : Used in same region
+
+4. Cloud DNS :
+
+Google Cloud DNS
+
+5. Advanced connectivity :
+   1. Cloud VPN : through IPsec connection
+   2. Direct interconnect
+   3. Direct peering
+   4. Carrier peering
+
 GitHub repo for follow along : <https://github.com/antonitz/google-cloud-associate-cloud-engineer>
 🔗 Get your Free Practice and Downloadable Cheatsheets: <https://www.exampro.co/gcp-ace>
 More notes : <https://github.com/agakhil13/gcp_quick_notes>
