@@ -152,7 +152,47 @@ Controlled by IAM : Identity access management
 
     Types : Individual and Business (Cannot be changed afterwards)
 
+**Cost management and budget alerts**
 
+1. Committed use discounts (CUD's) :
+
+    Discounted prices when you commit to using a minimum level of resources for a specified term.
+
+    1 or 3 year commmitment.
+
+    Commitment Types :
+
+    1. Spend based
+
+    - Minimum amount for a service (hours)
+    - 25% for 1 year discounts - 52% discount on a 3 year
+    - Available for : Cloud SQL + Google cloud Vmware engine
+    - Applies to CPU and memory usage
+
+    2. Resource based
+
+    - Minimum amount for compute engine resources
+    - Available for vCPU, memory, GPU and local SSD
+    - 57% discount for most resources and 70% for memory optimized machine types
+    - For use across projects
+
+2. Sustained-use discounts
+
+- Automatic discounts for running computer engine resources a significant portion of the billing month
+
+- Applies to vCPUs and memory for most compute engine instance types
+
+- Includes VM's created by GKE
+
+- Upto 30% discounts
+
+3. GCP pricing calculator : Quick estimate of what your usage will cost on Google cloud
+
+4. Cloud Billing budgets : Traack your actual google cloud spends
+
+Budget alert --> monitoring --> email --> budget alert recepents.
+
+5. Cloud Pub/Sub : Programatically notification or to automate cost management tasks. Real time notifications etc.
 
 GitHub repo for follow along : <https://github.com/antonitz/google-cloud-associate-cloud-engineer>
 🔗 Get your Free Practice and Downloadable Cheatsheets: <https://www.exampro.co/gcp-ace>
