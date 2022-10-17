@@ -457,6 +457,107 @@ MIGS : Can be used with : Preemptible VMs, containers, Network and subnet
 Instance templates : Resource used to create VM instances and MIGs
 It cannot update or change existing instance template
 
+**Introduction to containers :**
+
+Container registry : Single place to store and manage your docker images. Ex: DockerHub
+
+**GKE and kubernetes concepts :**
+
+K8s : Orchestration platform for containers
+Used for automate, schedule and run containers
+Managed by CNCF (Cloud native computing foundation)
+
+GKE : Google Cloud kubernetes engine
+
+Features :
+
+1. Cloud load balancing
+2. Node pools
+3. automatic scaling
+4. automatic upgrades
+5. node auto-repair
+6. logging and monitoring
+
+Cluster :
+
+Foundation of GKE
+
+Contains :
+
+1. Control plane : responsible for scheduling and management
+
+Parts of control plane :
+
+   1. Cluster IP
+   2. kube scheduler
+   3. kube controller manager
+   4. cloud controller manager
+   5. ETCD
+
+   2. 1 or more nodes : Node runs containerized apps and is responsible for Docker runtime
+
+kubectl : CLI for kubernetes
+
+Surge upgrade : control the number of nodes GKE can upgrade at a time. Ex : max-surge-upgrade, max-unavailable-upgrade
+
+**GKE storage options :**
+
+Types :
+
+1. Databases storage :
+
+   1. Cloud SQL
+   2. Cloud Spanner
+   3. DataStore
+
+2. NAS :
+
+   1. Filestore
+
+3. Object storage :
+
+   1. Cloud storagee
+
+4. Block storage :
+
+   1. Persistent disk
+
+**Cloud VPN :**
+
+Connects your peer network to your VPC network through an IPsec VPN connection
+
+IPsec tunnel over the public internet
+
+Cloud VPN is a regional service
+Site to site VPN only (no site to client)
+Allows private google access for on-premises hosts
+Support up to 3 Gbps per tunnel
+
+Types of cloud VPN :
+
+1. Classic VPN : 99.9% SLA (3 9's SLA) , Static and dynamic routing, 1 ext IP for 1 interface, Deprecating functionality in 2021
+
+2. HA VPN : 99.99% SLA (4 9's SLA), Dynamic ruting, 2 ext IPs for 2 interfaces, new default VPN
+
+**Cloud interconnect :**
+
+Low latency, highly available connection b/w your on-premises and GCP VPC n/w
+
+Directly accessiible internal IP address : private google access
+
+Does not traverse the public internet
+
+Not encrypted
+
+Expensive
+
+Dedicated connection
+
+Types :
+
+1. Direct intnerconnect
+2. Partner internconnect
+
 
 
 🚀 GitHub repo for follow along : <https://github.com/antonitz/google-cloud-associate-cloud-engineer>
