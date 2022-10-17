@@ -558,6 +558,20 @@ Types :
 1. Direct intnerconnect
 2. Partner internconnect
 
+**App engine overview :**
+
+1. Fully managed, serverless platform to develop and host web apps
+2. PaaS service
+3. Autoscaling based on loads
+
+**Cloud functions :**
+
+Serverless. FaaS. You won't see the apps unlikek app engine
+
+Event driven
+
+**Cloud storage :**
+
 
 
 🚀 GitHub repo for follow along : <https://github.com/antonitz/google-cloud-associate-cloud-engineer>
