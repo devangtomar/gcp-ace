@@ -408,7 +408,7 @@ Reservations :
 
 **Persistent Disk Snapshots :**
 
-- Backup and restore of persistent disk
+- Backup andode restore of persistent disk
 - Global resource
 - Incremental and automatically compressed
 - Stored in regional or multi-regional location
@@ -418,6 +418,46 @@ Reservations :
 YAML, JSON and Jinja to deploy and destory resources
 
 Deploy --> update --> delete
+
+**Cloud load balancer :**
+
+Backend services : Defines how cloud load balancing distributes traffic
+
+- Types of Load Balancer
+  - HTTP(s) :
+    - Types : Cross region load balancing and Content based load balancing
+    - Layer 7 load balancer
+    - Global, proxy based layer 7 load balancer behing a single external IP address
+
+  - SSL Proxy
+    - Reverse proxy load balancer that distributes SSL traffic coming from internet to VMs
+    - Layer 4 load balancer
+    - Support for TCP with SSL offload
+
+  - TCP proxy
+    - Reverse proxy load balancer that distributes TCP traffic coming from internet to VMs
+    - Layer 4 load balancer
+
+  - Network
+    - Pass through load balancer tha distributes the TCP and UDP traffic to VMs
+    - Not a proxy
+
+  - Internal
+    - Layer 4 load balancer
+    - Internal load balancer b/w VM instances
+
+**Instance Groups and Instance templates :**
+
+Instance group is a collection of VMs which can controlled like 1 VM
+
+Types of Instance groups : Manageed instance groups (MIGs) and Un-managed instance groups
+
+MIGS : Can be used with : Preemptible VMs, containers, Network and subnet
+
+Instance templates : Resource used to create VM instances and MIGs
+It cannot update or change existing instance template
+
+
 
 🚀 GitHub repo for follow along : <https://github.com/antonitz/google-cloud-associate-cloud-engineer>
 
