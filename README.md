@@ -572,6 +572,55 @@ Event driven
 
 **Cloud storage :**
 
+1. Object storage.
+2. For pictures and videos and not operating systems
+
+Based on location :
+
+   1. Region
+   2. Dual-region
+   3. Multi-region
+
+Types :
+
+   Hot data :
+
+      1. Standard (max availability)
+      2. Nearline (Low cost for infrequently accessed data. 30 day min storage duration)
+
+   Cold data :
+
+      3. Coldline (90 days min storage duration)
+      4. Archive (365 day min storage duration)
+
+**Cloud SQL :**
+
+Fully managed, relational database service (RDBMS)
+
+DBaaS (Database as a service)
+
+Low latency, transactional, reational db workloads
+
+High availability
+
+**Cloud Spannar :**
+
+Different from Cloud SQL.
+
+It's horizontally scalable and strongly consistent
+
+Supportt schemas, ACID transactions and SQL queries
+
+**NoSQL databases :**
+
+Types :
+
+1. Cloud BigTable (TB to PetaByte scale workload) : Hadoop etc.
+2. Cloud Datastore : Document database (Being retired in favor of cloud firestore in 2021)
+3. Firestore for firebase : Serverless amd store data in documents.
+4. MemoryStore : for Redis and memcached in-memory data store for cache.
+
+**Big Data overview :**
 
 
 🚀 GitHub repo for follow along : <https://github.com/antonitz/google-cloud-associate-cloud-engineer>
