@@ -564,7 +564,7 @@ Types :
 
 **Cloud functions :**
 
-   Serverless. FaaS. You won't see the apps unlikek app engine
+   Serverless. FaaS. You won't see the apps unlike app engine
 
    Event driven
 
