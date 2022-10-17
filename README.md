@@ -226,10 +226,10 @@ IAM : Policy + Bindings
 
 Let's you manage access control by defining who, has what access, for which resource.
 
-   - Principle of least privilege - Apply only the minimal access level required for what's needed.
-   - Set policies at organization or project level rather than at the resource level.
-   - Grant roles for users or group at the folder level rather than at the project level.
-   - Grant roles to Google groups rather than individual users.
+- Principle of least privilege - Apply only the minimal access level required for what's needed.
+- Set policies at organization or project level rather than at the resource level.
+- Grant roles for users or group at the folder level rather than at the project level.
+- Grant roles to Google groups rather than individual users.
 
 Types of roles :
 
@@ -633,43 +633,42 @@ Types :
 Dataflow : serverless
 Dataproc : managed
 
-
 **Rest of the services :**
 
-   - BigQuery - For analysis of large data.
+- BigQuery - For analysis of large data.
 
-   - Pub/Sub - Queue for notification.
+- Pub/Sub - Queue for notification.
 
-   - Composer - Built on Apache Airflow, workflow orchestration service
+- Composer - Built on Apache Airflow, workflow orchestration service
 
-   - Dataflow - Apache beam pipelines for batch and realtime datastream,for ETL. Serverless. Cloud Dataflow is a stream and batch processing service
+- Dataflow - Apache beam pipelines for batch and realtime datastream,for ETL. Serverless. Cloud Dataflow is a stream and batch processing service
 
-   - Dataproc - Run hadoop spark on google cloud. Fully managed instance.
+- Dataproc - Run hadoop spark on google cloud. Fully managed instance.
 
-   - Datalab - Tool for machine learning and visualization.
+- Datalab - Tool for machine learning and visualization.
 
-   - Cloud Data Fusion - Cloud Data Fusion is a managed service that is designed for building data transformation pipelines.
+- Cloud Data Fusion - Cloud Data Fusion is a managed service that is designed for building data transformation pipelines.
 
-   - Dataprep - Serverless. Cloud Dataprep is used to prepare data for analytics and machine learning.
+- Dataprep - Serverless. Cloud Dataprep is used to prepare data for analytics and machine learning.
 
 **Machine learning :**
 
    Services :
 
-   - Sight
-     - Vision : For images (clasify images and hand written text data).
-     - Video Intelligence : For videos (recognize a vast number of objecta and streaming videos).
+- Sight
+  - Vision : For images (clasify images and hand written text data).
+  - Video Intelligence : For videos (recognize a vast number of objecta and streaming videos).
 
-   - Language
-     - Natural Language : (Derive insight using unstructred text)
-     - Translation : (Enables you to translate between languages).
+- Language
+  - Natural Language : (Derive insight using unstructred text)
+  - Translation : (Enables you to translate between languages).
 
-   - Conversation -
-     - Dialog Flow : chat bots
-     - Speech to text
-     - text to speech.
+- Conversation -
+  - Dialog Flow : chat bots
+  - Speech to text
+  - text to speech.
 
-   - Auto ML - Fully managed service to build ML product with less knowledge.
+- Auto ML - Fully managed service to build ML product with less knowledge.
 
 **Operation Suite :** (Previously knows as Stackdriver)
 
