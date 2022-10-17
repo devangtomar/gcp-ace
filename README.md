@@ -645,30 +645,30 @@ Dataproc : managed
 
 - Dataproc - Run hadoop spark on google cloud. Fully managed instance.
 
-- Datalab - Tool for machine learning and visualization.
-
-- Cloud Data Fusion - Cloud Data Fusion is a managed service that is designed for building data transformation pipelines.
-
-- Dataprep - Serverless. Cloud Dataprep is used to prepare data for analytics and machine learning.
-
 **Machine learning :**
 
    Services :
 
-- Sight
-  - Vision : For images (clasify images and hand written text data).
-  - Video Intelligence : For videos (recognize a vast number of objecta and streaming videos).
+         - Datalab - Tool for machine learning and visualization.
 
-- Language
-  - Natural Language : (Derive insight using unstructred text)
-  - Translation : (Enables you to translate between languages).
+         - Cloud Data Fusion - Cloud Data Fusion is a managed service that is designed for building data transformation pipelines.
 
-- Conversation -
-  - Dialog Flow : chat bots
-  - Speech to text
-  - text to speech.
+         - Dataprep - Serverless. Cloud Dataprep is used to prepare data for analytics and machine learning.
 
-- Auto ML - Fully managed service to build ML product with less knowledge.
+         - Sight
+         - Vision : For images (clasify images and hand written text data).
+         - Video Intelligence : For videos (recognize a vast number of objecta and streaming videos).
+
+         - Language
+         - Natural Language : (Derive insight using unstructred text)
+         - Translation : (Enables you to translate between languages).
+
+         - Conversation -
+         - Dialog Flow : chat bots
+         - Speech to text
+         - text to speech.
+
+         - Auto ML - Fully managed service to build ML product with less knowledge.
 
 **Operation Suite :** (Previously knows as Stackdriver)
 
