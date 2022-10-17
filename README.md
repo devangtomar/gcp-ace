@@ -656,17 +656,17 @@ Dataproc : managed
          - Dataprep - Serverless. Cloud Dataprep is used to prepare data for analytics and machine learning.
 
          - Sight
-         - Vision : For images (clasify images and hand written text data).
-         - Video Intelligence : For videos (recognize a vast number of objecta and streaming videos).
+           - Vision : For images (clasify images and hand written text data).
+           - Video Intelligence : For videos (recognize a vast number of objecta and streaming videos).
 
          - Language
-         - Natural Language : (Derive insight using unstructred text)
-         - Translation : (Enables you to translate between languages).
+           - Natural Language : (Derive insight using unstructred text)
+           - Translation : (Enables you to translate between languages).
 
          - Conversation -
-         - Dialog Flow : chat bots
-         - Speech to text
-         - text to speech.
+           - Dialog Flow : chat bots
+           - Speech to text
+           - text to speech.
 
          - Auto ML - Fully managed service to build ML product with less knowledge.
 
