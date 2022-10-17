@@ -678,8 +678,8 @@ Services :
 
 Types :
 
-- Monitoring - Cloud Monitoring is used for collecting and view metrics on resource performance.
-- Logging - who did what,where and when. Connection records can be viewed in Cloud Logging.
+- Cloud Monitoring - Cloud Monitoring is used for collecting and view metrics on resource performance.
+- Cloud Logging - who did what,where and when. Connection records can be viewed in Cloud Logging.
 - Error Reporting - Alerts you when new application error occurs.
 
 Application performance management :
