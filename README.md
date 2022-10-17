@@ -622,6 +622,71 @@ Types :
 
 **Big Data overview :**
 
+Services :
+
+1. BigQuery : Fully managed, petabyte scale, low cost analytics data warehouse
+2. Pub Sub : Fully managed real time messaging service. Send and receive messages b/w independent application
+3. Composer : (Built on APache airflow) Fully managed workflow orchestration service... used for automating workflows..
+4. Dataflow : (Used for ETL) Fully managed processing service for executing Apache beam pipelines for batch and realtime data streaming.
+5. DataProc : Spark and hadoop service. Can be used to replace on-prem hadoop infrastructure.
+
+**Dataproc vs dataflow**
+
+Dataproc : managed
+Dataflow : serverless
+
+**Rest of the services :**
+
+- BigQuery - For analysis of large data.
+
+- Pub/Sub - Queue for notification.
+
+- Composer - Built on Apache Airflow, workflow orchestration service
+
+- Dataflow - Apache beam pipelines for batch and realtime datastream,for ETL. Serverless. Cloud Dataflow is a stream and batch processing service
+
+- Dataproc - Run hadoop spark on google cloud. Fully managed instance.
+
+- Datalab - Tool for machine learning and visualization.
+
+- Cloud Data Fusion - Cloud Data Fusion is a managed service that is designed for building data transformation pipelines.
+
+- Dataprep - Serverless. Cloud Dataprep is used to prepare data for analytics and machine learning.
+
+**Machine learning :**
+
+Services :
+
+- Sight
+  - Vision : For images (clasify images and hand written text data).
+  - Video Intelligence : For videos (recognize a vast number of objecta and streaming videos).
+
+- Language
+  - Natural Language : (Derive insight using unstructred text)
+  - Translation : (Enables you to translate between languages).
+
+- Conversation -
+  - Dialog Flow : chat bots
+  - Speech to text
+  - text to speech.
+
+- Auto ML - Fully managed service to build ML product with less knowledge.
+
+**Operation Suite :** (Previously knows as Stackdriver)
+
+- Tool for logging, monitoring and application diagnostics. Can also get connect to AWS.
+
+Types :
+
+- Monitoring - Cloud Monitoring is used for collecting and view metrics on resource performance.
+- Logging - who did what,where and when. Connection records can be viewed in Cloud Logging.
+- Error Reporting - Alerts you when new application error occurs.
+
+Application performance management :
+
+- Debugger - Cloud Debugger is used by developers to identify and correct errors in code.
+- Trace - Cloud Trace is used to understand performance in distributed systems.
+- Profiler - Gather CPU and memory usage from your application.
 
 🚀 GitHub repo for follow along : <https://github.com/antonitz/google-cloud-associate-cloud-engineer>
 
